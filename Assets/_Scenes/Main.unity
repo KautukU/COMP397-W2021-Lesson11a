@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.04
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 846c5e118d5dc704fb1d5a7706365470, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3081,8 +3081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9389282055aa3854ba2d34fb231ff7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tileLength: 3
-  tileWidth: 3
+  tileLength: 8
+  tileWidth: 8
   tilePrefabs:
   - {fileID: 4845617995797624152, guid: 76e420a1a4cc51748a0b7b6429db1760, type: 3}
   - {fileID: 4845617995797624152, guid: 76e420a1a4cc51748a0b7b6429db1760, type: 3}
@@ -3685,6 +3685,10 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1076163179}
+    - target: {fileID: 6772298074691407823, guid: 0ddad2d61a630294badf13f1bbf9682e, type: 3}
+      propertyPath: far clip plane
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ddad2d61a630294badf13f1bbf9682e, type: 3}
 --- !u!1001 &8639240809894782913
